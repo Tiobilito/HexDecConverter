@@ -103,7 +103,7 @@ namespace Tarea_1
                     }
                     for(y=0;y<4;y++)
                     {
-                        while (line[i] != '.' && i!=line.Length-1)
+                        while (i < line.Length && line[i] != '.')
                         {
                             aux += line[i];
                             i++;
